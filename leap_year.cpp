@@ -1,7 +1,7 @@
 // Program to check if an year is a LeapYear or not.
 #include<iostream>
 using namespace std;
-// CAUTION:- The sequence of Leap Years should not be changed otherwise, it will make a runtime error
+// CAUTION:- The sequence of condition check for Leap Years should not be changed otherwise, it will be a logical error.
 bool LeapYear(int n){
     if(n%400==0)
         return true;
